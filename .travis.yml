@@ -4,7 +4,8 @@ notifications:
 python:
   - 2.7
 install:
-  - python run.py install
+  - python config.py
+  - python run.py
 script:
   - echo "no scripts"
 after_success:

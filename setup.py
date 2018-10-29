@@ -10,7 +10,7 @@ setup(
     install_requires=["requests", "numpy", "Django==1.9.6"],
     entry_points={
         'console_scripts': [
-            'pip-project=Main:main'
+            'Pyrate=Main:main'
         ]
     }
 )
